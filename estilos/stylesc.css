@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
     body {
-        background-color: #f8f9fa;
-    }
+        font-family: 'open sans';
+        background: #161815 ;
+        }
     .contact-form {
         max-width: 600px;
         margin: 50px auto;
@@ -38,3 +41,32 @@
         background-color: #0056b3;
         border-color: #0056b3;
     }
+    .navbar-nav a{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+    
+    }
+    
+    .nabvar-light .navbar-brand:focus, .navbar-light .nav-branda:hover{
+        color: #000;
+    
+    }
+    
+    .w-100{
+        height: 100vh;
+    }
+    .navbar.toggler{
+        padding: 1px 5 px;
+        font-size: 18px;
+        line-height: 0.3;
+    }
+    .servicios .card-body i{
+        font-size: 50px;
+    }
+    
+    @media(max-width: 767px){
+        .navbar-nav{
+            text-align: center;
+        }
+    }   
